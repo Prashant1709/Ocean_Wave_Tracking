@@ -1,0 +1,6 @@
+# Wave-Project
+Optical  imaging  has  often  been  use  to  take  measurements  of  ocean  properties.  With  the  development  of  new and  more  efficient  methodologies  as  well  as  cheaper  technology to  perform  them,  it  is  now  possible  to  perform  an  advanced analysis  in  real-time  with  inexpensive  tools.  This  can  help  the already existing sensors used to measure the quality of the ocean at any  given time for the  beach-goers that would  like to  know such  things.
+
+In this Project we use realtime or recorded videos of sea waves to monitor and analyze them. The video analysis present various parameters determined from the waves by using the MWT functions. This data is logged in a csv file and frames from video are stored for deep learning applications.
+
+In the next step we implement deep learning, i.e. Convolutional Neural Network to train a model and categorize wave images stored in our dataset as calm or high. This method is then levid to live streams of videos.
